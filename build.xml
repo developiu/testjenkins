@@ -2,7 +2,7 @@
 
     <target name="run">
        <exec executable="php" failonerror="true" dir=".">
-         <arg line="phpunit --verbose --testdox-html phpunit-report.html" />
+         <arg line="phpunit --verbose --log-junit phpunit-report.xml" />
        </exec> 
     </target>
 

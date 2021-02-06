@@ -1,1 +1,2 @@
-phpunit-report.html
+phpunit-report.xml
+.phpunit.result.cache
