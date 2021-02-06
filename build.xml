@@ -1,7 +1,9 @@
 <project>
 
     <target name="run">
-      <echo message="hello, world!" />
+       <exec executable="php7.4" failonerror="true" dir=".">
+         <arg line="phpunit --verbose --testdox-html phpunit-report.html" />
+       </exec> 
     </target>
 
 </project>
