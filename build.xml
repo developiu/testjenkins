@@ -6,12 +6,4 @@
        </exec> 
     </target>
 
-    <target name="deploy">
-       <copy todir="/var/www/devel.developiu.it/httpdocs/testci/" preservelastmodified="true">
-         <fileset dir=".">
-            <include name="**/*.*"/>
-         </fileset>
-      </copy>
-    </target>
-
 </project>
