@@ -1,6 +1,8 @@
+<?php
+
 use PHPUnit\Framework\TestCase;
 
-class StackTest extends TestCase
+class ProvaTest extends TestCase
 {
     public function testOne()
     {
